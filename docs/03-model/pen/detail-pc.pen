@@ -1,0 +1,767 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "id": "p2-1440",
+      "type": "frame",
+      "name": "P2 详情页 @1440",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1492,
+      "layout": "none",
+      "cornerRadius": 0,
+      "fill": {
+        "type": "color",
+        "color": "#FFFFFF"
+      },
+      "children": [
+        {
+          "id": "p2-1440--N1",
+          "type": "frame",
+          "name": "N1 站点导航",
+          "x": 16,
+          "y": 80,
+          "width": 1408,
+          "height": 64,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#EDEDED"
+          },
+          "children": [
+            {
+              "id": "p2-1440--N1--t",
+              "type": "text",
+              "name": "N1 站点导航",
+              "content": "N1 站点导航",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p2-1440--N1--l1",
+              "type": "text",
+              "name": "【站名 site.title】         ",
+              "content": "【站名 site.title】                       【站内链接】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p2-1440--B1",
+          "type": "frame",
+          "name": "B1 标题头",
+          "x": 16,
+          "y": 168,
+          "width": 1408,
+          "height": 138,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p2-1440--B1--t",
+              "type": "text",
+              "name": "B1 标题头",
+              "content": "B1 标题头",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p2-1440--B1--l1",
+              "type": "text",
+              "name": "【← 返回首页】",
+              "content": "【← 返回首页】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B1--l2",
+              "type": "text",
+              "name": "【项目标题 project.title】    ",
+              "content": "【项目标题 project.title】        【章节序号标识】",
+              "x": 16,
+              "y": 66,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B1--l3",
+              "type": "text",
+              "name": "【角色 role】·【技术栈 stack】",
+              "content": "【角色 role】·【技术栈 stack】",
+              "x": 16,
+              "y": 94,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p2-1440--B2",
+          "type": "frame",
+          "name": "B2 段1 背景与问题",
+          "x": 16,
+          "y": 330,
+          "width": 1408,
+          "height": 82,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p2-1440--B2--t",
+              "type": "text",
+              "name": "B2 段1 背景与问题",
+              "content": "B2 段1 背景与问题",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p2-1440--B2--l1",
+              "type": "text",
+              "name": "【正文 md 第 1 段】",
+              "content": "【正文 md 第 1 段】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p2-1440--B3",
+          "type": "frame",
+          "name": "B3 段2 架构图",
+          "x": 16,
+          "y": 436,
+          "width": 1408,
+          "height": 110,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p2-1440--B3--t",
+              "type": "text",
+              "name": "B3 段2 架构图",
+              "content": "B3 段2 架构图",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p2-1440--B3--l1",
+              "type": "text",
+              "name": "【正文 md 第 2 段】",
+              "content": "【正文 md 第 2 段】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B3--l2",
+              "type": "text",
+              "name": "▭ 【架构图 src/assets/… + 图注",
+              "content": "▭ 【架构图 src/assets/… + 图注】",
+              "x": 16,
+              "y": 66,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p2-1440--B4",
+          "type": "frame",
+          "name": "B4 段3 关键工程决策",
+          "x": 16,
+          "y": 570,
+          "width": 1408,
+          "height": 138,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p2-1440--B4--t",
+              "type": "text",
+              "name": "B4 段3 关键工程决策",
+              "content": "B4 段3 关键工程决策",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p2-1440--B4--l1",
+              "type": "text",
+              "name": "【决策①：做了什么 / 收益 / 代价】",
+              "content": "【决策①：做了什么 / 收益 / 代价】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B4--l2",
+              "type": "text",
+              "name": "【决策②：做了什么 / 收益 / 代价】",
+              "content": "【决策②：做了什么 / 收益 / 代价】",
+              "x": 16,
+              "y": 66,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B4--l3",
+              "type": "text",
+              "name": "【决策③：做了什么 / 收益 / 代价】",
+              "content": "【决策③：做了什么 / 收益 / 代价】",
+              "x": 16,
+              "y": 94,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B4--n",
+              "type": "text",
+              "name": "※ 列表项 <3 或某项缺「代价」→ 构建失败",
+              "content": "※ 列表项 <3 或某项缺「代价」→ 构建失败",
+              "x": 16,
+              "y": 106,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 11,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p2-1440--B5",
+          "type": "frame",
+          "name": "B5 段4 量化结果",
+          "x": 16,
+          "y": 732,
+          "width": 1408,
+          "height": 194,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p2-1440--B5--t",
+              "type": "text",
+              "name": "B5 段4 量化结果",
+              "content": "B5 段4 量化结果",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p2-1440--B5--l1",
+              "type": "text",
+              "name": "▤ 【label】 ｜ 【value】",
+              "content": "▤ 【label】 ｜ 【value】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B5--l2",
+              "type": "text",
+              "name": "▤ 【label】 ｜ 【value】",
+              "content": "▤ 【label】 ｜ 【value】",
+              "x": 16,
+              "y": 66,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B5--l3",
+              "type": "text",
+              "name": "▤ 【label】 ｜ 【value】",
+              "content": "▤ 【label】 ｜ 【value】",
+              "x": 16,
+              "y": 94,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B5--l4",
+              "type": "text",
+              "name": "▤ …… 共 7 行（metrics[] 渲染）",
+              "content": "▤ …… 共 7 行（metrics[] 渲染）",
+              "x": 16,
+              "y": 122,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B5--l5",
+              "type": "text",
+              "name": "【正文 md 第 4 段：口径说明】",
+              "content": "【正文 md 第 4 段：口径说明】",
+              "x": 16,
+              "y": 150,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B5--n",
+              "type": "text",
+              "name": "※ 表格由 metrics[] 生成，行序待 D",
+              "content": "※ 表格由 metrics[] 生成，行序待 D 阶段定",
+              "x": 16,
+              "y": 162,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 11,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p2-1440--B6",
+          "type": "frame",
+          "name": "B6 段5 已知不足",
+          "x": 16,
+          "y": 950,
+          "width": 1408,
+          "height": 138,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p2-1440--B6--t",
+              "type": "text",
+              "name": "B6 段5 已知不足",
+              "content": "B6 段5 已知不足",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p2-1440--B6--l1",
+              "type": "text",
+              "name": "【不足①：选了 X，代价是 Y】",
+              "content": "【不足①：选了 X，代价是 Y】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B6--l2",
+              "type": "text",
+              "name": "【不足②：选了 X，代价是 Y】",
+              "content": "【不足②：选了 X，代价是 Y】",
+              "x": 16,
+              "y": 66,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B6--l3",
+              "type": "text",
+              "name": "【不足③：选了 X，代价是 Y】",
+              "content": "【不足③：选了 X，代价是 Y】",
+              "x": 16,
+              "y": 94,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p2-1440--B7",
+          "type": "frame",
+          "name": "B7 段6 复现方式",
+          "x": 16,
+          "y": 1112,
+          "width": 1408,
+          "height": 110,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p2-1440--B7--t",
+              "type": "text",
+              "name": "B7 段6 复现方式",
+              "content": "B7 段6 复现方式",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p2-1440--B7--l1",
+              "type": "text",
+              "name": "【正文 md 第 6 段】",
+              "content": "【正文 md 第 6 段】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B7--l2",
+              "type": "text",
+              "name": "【仓库外链（新窗口）】",
+              "content": "【仓库外链（新窗口）】",
+              "x": 16,
+              "y": 66,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p2-1440--B8",
+          "type": "frame",
+          "name": "B8 段7 演示录屏",
+          "x": 16,
+          "y": 1246,
+          "width": 1408,
+          "height": 110,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p2-1440--B8--t",
+              "type": "text",
+              "name": "B8 段7 演示录屏",
+              "content": "B8 段7 演示录屏",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p2-1440--B8--l1",
+              "type": "text",
+              "name": "【正文 md 第 7 段】",
+              "content": "【正文 md 第 7 段】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p2-1440--B8--l2",
+              "type": "text",
+              "name": "【录屏外链（新窗口）】",
+              "content": "【录屏外链（新窗口）】",
+              "x": 16,
+              "y": 66,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p2-1440--F1",
+          "type": "frame",
+          "name": "F1 页脚",
+          "x": 16,
+          "y": 1380,
+          "width": 1408,
+          "height": 96,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#EDEDED"
+          },
+          "children": [
+            {
+              "id": "p2-1440--F1--t",
+              "type": "text",
+              "name": "F1 页脚",
+              "content": "F1 页脚",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p2-1440--F1--l1",
+              "type": "text",
+              "name": "【站名】   【联系方式】   【年份】",
+              "content": "【站名】   【联系方式】   【年份】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        }
+      ]
+    }
+  ]
+}

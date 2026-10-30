@@ -1,0 +1,543 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "id": "p1-375",
+      "type": "frame",
+      "name": "P1 首页 @375",
+      "x": 0,
+      "y": 0,
+      "width": 375,
+      "height": 1008,
+      "layout": "none",
+      "cornerRadius": 0,
+      "fill": {
+        "type": "color",
+        "color": "#FFFFFF"
+      },
+      "children": [
+        {
+          "id": "p1-375--N1",
+          "type": "frame",
+          "name": "N1 站点导航",
+          "x": 16,
+          "y": 80,
+          "width": 343,
+          "height": 64,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#EDEDED"
+          },
+          "children": [
+            {
+              "id": "p1-375--N1--t",
+              "type": "text",
+              "name": "N1 站点导航",
+              "content": "N1 站点导航",
+              "x": 16,
+              "y": 16,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p1-375--N1--l1",
+              "type": "text",
+              "name": "【站名】",
+              "content": "【站名】",
+              "x": 16,
+              "y": 38,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p1-375--A1",
+          "type": "frame",
+          "name": "A1 首屏区",
+          "x": 16,
+          "y": 168,
+          "width": 343,
+          "height": 194,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p1-375--A1--t",
+              "type": "text",
+              "name": "A1 首屏区",
+              "content": "A1 首屏区",
+              "x": 16,
+              "y": 16,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p1-375--A1--l1",
+              "type": "text",
+              "name": "【姓名】",
+              "content": "【姓名】",
+              "x": 16,
+              "y": 38,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p1-375--A1--l2",
+              "type": "text",
+              "name": "【定位句 site.tagline】",
+              "content": "【定位句 site.tagline】",
+              "x": 16,
+              "y": 66,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p1-375--A1--l3",
+              "type": "text",
+              "name": "【技术标签 techTag】",
+              "content": "【技术标签 techTag】",
+              "x": 16,
+              "y": 94,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p1-375--A1--l4",
+              "type": "text",
+              "name": "[入口 ①②③]",
+              "content": "[入口 ①②③]",
+              "x": 16,
+              "y": 122,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p1-375--A1--l5",
+              "type": "text",
+              "name": "【联系方式行 contacts[]】",
+              "content": "【联系方式行 contacts[]】",
+              "x": 16,
+              "y": 150,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p1-375--A1--n",
+              "type": "text",
+              "name": "※ 375×812 不滚动可见 3 入口（O7 ",
+              "content": "※ 375×812 不滚动可见 3 入口（O7 待真机验证）",
+              "x": 16,
+              "y": 162,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 11,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p1-375--A2",
+          "type": "frame",
+          "name": "A2 项目卡片区（折为单列）",
+          "x": 16,
+          "y": 386,
+          "width": 343,
+          "height": 170,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#FAFAFA"
+          },
+          "children": [
+            {
+              "id": "p1-375--A2--t",
+              "type": "text",
+              "name": "A2 项目卡片区（折为单列）",
+              "content": "A2 项目卡片区（折为单列）",
+              "x": 16,
+              "y": 12,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p1-375--A2-stack",
+              "type": "frame",
+              "name": "A2-stack",
+              "x": 0,
+              "y": 38,
+              "width": 343,
+              "height": 116,
+              "layout": "none",
+              "cornerRadius": 0,
+              "fill": {
+                "type": "color",
+                "color": "#F5F5F5"
+              },
+              "children": [
+                {
+                  "id": "p1-375--A2-stack--l1",
+                  "type": "text",
+                  "name": "【卡①标题 / 角色 / 栈 / 量化】",
+                  "content": "【卡①标题 / 角色 / 栈 / 量化】",
+                  "x": 16,
+                  "y": 16,
+                  "width": 311,
+                  "textGrowth": "fixed-width",
+                  "fontSize": 13,
+                  "fill": {
+                    "type": "color",
+                    "color": "#1F1F1F"
+                  }
+                },
+                {
+                  "id": "p1-375--A2-stack--l2",
+                  "type": "text",
+                  "name": "【卡②标题 / 角色 / 栈 / 量化】",
+                  "content": "【卡②标题 / 角色 / 栈 / 量化】",
+                  "x": 16,
+                  "y": 44,
+                  "width": 311,
+                  "textGrowth": "fixed-width",
+                  "fontSize": 13,
+                  "fill": {
+                    "type": "color",
+                    "color": "#1F1F1F"
+                  }
+                },
+                {
+                  "id": "p1-375--A2-stack--l3",
+                  "type": "text",
+                  "name": "【卡③标题 / 角色 / 栈 / 量化】",
+                  "content": "【卡③标题 / 角色 / 栈 / 量化】",
+                  "x": 16,
+                  "y": 72,
+                  "width": 311,
+                  "textGrowth": "fixed-width",
+                  "fontSize": 13,
+                  "fill": {
+                    "type": "color",
+                    "color": "#1F1F1F"
+                  }
+                }
+              ],
+              "stroke": {
+                "type": "color",
+                "color": "#BDBDBD",
+                "thickness": 1
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p1-375--A3",
+          "type": "frame",
+          "name": "A3 经历时间线（折为单列）",
+          "x": 16,
+          "y": 580,
+          "width": 343,
+          "height": 142,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#FAFAFA"
+          },
+          "children": [
+            {
+              "id": "p1-375--A3--t",
+              "type": "text",
+              "name": "A3 经历时间线（折为单列）",
+              "content": "A3 经历时间线（折为单列）",
+              "x": 16,
+              "y": 12,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p1-375--A3-stack",
+              "type": "frame",
+              "name": "A3-stack",
+              "x": 0,
+              "y": 38,
+              "width": 343,
+              "height": 88,
+              "layout": "none",
+              "cornerRadius": 0,
+              "fill": {
+                "type": "color",
+                "color": "#F5F5F5"
+              },
+              "children": [
+                {
+                  "id": "p1-375--A3-stack--l1",
+                  "type": "text",
+                  "name": "【经历①：公司·角色 / 时间 / 职责】",
+                  "content": "【经历①：公司·角色 / 时间 / 职责】",
+                  "x": 16,
+                  "y": 16,
+                  "width": 311,
+                  "textGrowth": "fixed-width",
+                  "fontSize": 13,
+                  "fill": {
+                    "type": "color",
+                    "color": "#1F1F1F"
+                  }
+                },
+                {
+                  "id": "p1-375--A3-stack--l2",
+                  "type": "text",
+                  "name": "【经历②：公司·角色 / 时间 / 职责】",
+                  "content": "【经历②：公司·角色 / 时间 / 职责】",
+                  "x": 16,
+                  "y": 44,
+                  "width": 311,
+                  "textGrowth": "fixed-width",
+                  "fontSize": 13,
+                  "fill": {
+                    "type": "color",
+                    "color": "#1F1F1F"
+                  }
+                }
+              ],
+              "stroke": {
+                "type": "color",
+                "color": "#BDBDBD",
+                "thickness": 1
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p1-375--A4",
+          "type": "frame",
+          "name": "A4 联系方式区",
+          "x": 16,
+          "y": 746,
+          "width": 343,
+          "height": 110,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p1-375--A4--t",
+              "type": "text",
+              "name": "A4 联系方式区",
+              "content": "A4 联系方式区",
+              "x": 16,
+              "y": 16,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p1-375--A4--l1",
+              "type": "text",
+              "name": "【标题】",
+              "content": "【标题】",
+              "x": 16,
+              "y": 38,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p1-375--A4--l2",
+              "type": "text",
+              "name": "【联系方式行 ×N】",
+              "content": "【联系方式行 ×N】",
+              "x": 16,
+              "y": 66,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p1-375--F1",
+          "type": "frame",
+          "name": "F1 页脚",
+          "x": 16,
+          "y": 880,
+          "width": 343,
+          "height": 112,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#EDEDED"
+          },
+          "children": [
+            {
+              "id": "p1-375--F1--t",
+              "type": "text",
+              "name": "F1 页脚",
+              "content": "F1 页脚",
+              "x": 16,
+              "y": 16,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p1-375--F1--l1",
+              "type": "text",
+              "name": "【站名】",
+              "content": "【站名】",
+              "x": 16,
+              "y": 38,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p1-375--F1--l2",
+              "type": "text",
+              "name": "【联系方式】",
+              "content": "【联系方式】",
+              "x": 16,
+              "y": 66,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p1-375--F1--l3",
+              "type": "text",
+              "name": "【年份】",
+              "content": "【年份】",
+              "x": 16,
+              "y": 94,
+              "width": 311,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "version": "2.21",
+  "children": [
+    {
+      "id": "p4-print",
+      "type": "frame",
+      "name": "P4 打印视图 @1440（首页）",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 616,
+      "layout": "none",
+      "cornerRadius": 0,
+      "fill": {
+        "type": "color",
+        "color": "#FFFFFF"
+      },
+      "children": [
+        {
+          "id": "p4-print--A1",
+          "type": "frame",
+          "name": "A1 首屏区",
+          "x": 16,
+          "y": 80,
+          "width": 1408,
+          "height": 82,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p4-print--A1--t",
+              "type": "text",
+              "name": "A1 首屏区",
+              "content": "A1 首屏区",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p4-print--A1--l1",
+              "type": "text",
+              "name": "【姓名】/【定位句】/【技术标签】/【入口】/【",
+              "content": "【姓名】/【定位句】/【技术标签】/【入口】/【联系方式】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p4-print--A1--n",
+              "type": "text",
+              "name": "※ 打印保留；http(s) 外链在文本后括号打",
+              "content": "※ 打印保留；http(s) 外链在文本后括号打印 URL",
+              "x": 16,
+              "y": 50,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 11,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p4-print--A2",
+          "type": "frame",
+          "name": "A2 项目卡片区",
+          "x": 16,
+          "y": 186,
+          "width": 1408,
+          "height": 82,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p4-print--A2--t",
+              "type": "text",
+              "name": "A2 项目卡片区",
+              "content": "A2 项目卡片区",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p4-print--A2--l1",
+              "type": "text",
+              "name": "【卡①】【卡②】【卡③】",
+              "content": "【卡①】【卡②】【卡③】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p4-print--A2--n",
+              "type": "text",
+              "name": "※ 卡片禁止跨页切断",
+              "content": "※ 卡片禁止跨页切断",
+              "x": 16,
+              "y": 50,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 11,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p4-print--A3",
+          "type": "frame",
+          "name": "A3 经历时间线",
+          "x": 16,
+          "y": 292,
+          "width": 1408,
+          "height": 82,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p4-print--A3--t",
+              "type": "text",
+              "name": "A3 经历时间线",
+              "content": "A3 经历时间线",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p4-print--A3--l1",
+              "type": "text",
+              "name": "【经历①】【经历②】",
+              "content": "【经历①】【经历②】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p4-print--A3--n",
+              "type": "text",
+              "name": "※ 卡片禁止跨页切断",
+              "content": "※ 卡片禁止跨页切断",
+              "x": 16,
+              "y": 50,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 11,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p4-print--A4",
+          "type": "frame",
+          "name": "A4 联系方式区",
+          "x": 16,
+          "y": 398,
+          "width": 1408,
+          "height": 82,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#F5F5F5"
+          },
+          "children": [
+            {
+              "id": "p4-print--A4--t",
+              "type": "text",
+              "name": "A4 联系方式区",
+              "content": "A4 联系方式区",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p4-print--A4--l1",
+              "type": "text",
+              "name": "【联系方式行】",
+              "content": "【联系方式行】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        },
+        {
+          "id": "p4-print--F1",
+          "type": "frame",
+          "name": "F1 页脚",
+          "x": 16,
+          "y": 504,
+          "width": 1408,
+          "height": 96,
+          "layout": "none",
+          "cornerRadius": 0,
+          "fill": {
+            "type": "color",
+            "color": "#EDEDED"
+          },
+          "children": [
+            {
+              "id": "p4-print--F1--t",
+              "type": "text",
+              "name": "F1 页脚",
+              "content": "F1 页脚",
+              "x": 16,
+              "y": 16,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 12,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            },
+            {
+              "id": "p4-print--F1--l1",
+              "type": "text",
+              "name": "【站名】   【联系方式】   【年份】",
+              "content": "【站名】   【联系方式】   【年份】",
+              "x": 16,
+              "y": 38,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 13,
+              "fill": {
+                "type": "color",
+                "color": "#1F1F1F"
+              }
+            },
+            {
+              "id": "p4-print--F1--n",
+              "type": "text",
+              "name": "※ 此画板隐藏 N1 导航；详情页打印同构：隐藏",
+              "content": "※ 此画板隐藏 N1 导航；详情页打印同构：隐藏 B1 返回与 C2，B2–B8 全保留",
+              "x": 16,
+              "y": 64,
+              "width": 1376,
+              "textGrowth": "fixed-width",
+              "fontSize": 11,
+              "fill": {
+                "type": "color",
+                "color": "#8C8C8C"
+              }
+            }
+          ],
+          "stroke": {
+            "type": "color",
+            "color": "#BDBDBD",
+            "thickness": 1
+          }
+        }
+      ]
+    }
+  ]
+}
