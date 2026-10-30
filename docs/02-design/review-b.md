@@ -30,6 +30,7 @@
 |---|---|
 | §5 人工介入表编号 O1–O4 与 `learning-map.md` 的 O1–O3 不一致 | 改为 O1–O3，并把填 `inputs.env` 单列为 O4 |
 | §7 目录树写了 `content/projects/`，仓库里没有该目录 | 补建 `content/projects/.gitkeep`，README 目录树同步 |
+| `inputs.env` 的定位不清：可能被当成运行时配置 | 新增 **ADR-B3**：`docs/` 为设计过程文件，构建不得读取；值须转写进 `data/`（v0.6） |
 
 ## 变更记录
 

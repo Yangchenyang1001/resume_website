@@ -38,11 +38,13 @@ README 在此阶段只用于说明项目边界与文档索引，功能说明随 
 │   ├── styles/        分层 CSS 源文件，构建时拼接为单文件
 │   ├── scripts/       渐进增强脚本，构建时拼接为单文件
 │   └── assets/        图片与图标
-├── docs/              四阶段文档
+├── docs/              四阶段设计文档（不参与构建）
 │   ├── 01-requirements/
 │   └── 02-design/
 └── dist/              构建产物（不入库）
 ```
+
+`docs/` 是**设计过程**产物，不是项目源码：构建脚本只读 `data/`、`content/`、`src/`，不读 `docs/`（ADR-B3）。删掉整个 `docs/` 目录，站点仍能正常构建。
 
 ## 文档索引
 
@@ -51,7 +53,7 @@ README 在此阶段只用于说明项目边界与文档索引，功能说明随 
 | `docs/01-requirements/requirements-spec.md` | 需求规格，已冻结；改动须走变更请求 |
 | `docs/02-design/architecture.md` | 架构、选型与代价、核心链路、人工介入点 |
 | `docs/02-design/learning-map.md` | 需要学习的知识、需要介入的操作 |
-| `docs/02-design/inputs.env` | 站点内容与素材的输入清单（key-value） |
+| `docs/02-design/inputs.env` | 站点内容与素材的**设计输入**清单（key-value），值需转写进 `data/` 才生效 |
 
 ## 本地开发
 
@@ -70,4 +72,4 @@ README 在此阶段只用于说明项目边界与文档索引，功能说明随 
 
 ## 注意
 
-本仓库为 **public**，站点源码与 `data/` 内容均公开可见。禁止提交手机号、住址、在职公司内部信息、任何密钥。个人信息只写入 `docs/02-design/inputs.env` 中的公开字段。
+本仓库为 **public**，站点源码与 `data/` 内容均公开可见。禁止提交手机号、住址、在职公司内部信息、任何密钥。个人信息只写公开字段，先落在 `docs/02-design/inputs.env`，再转写进 `data/*.json`。
