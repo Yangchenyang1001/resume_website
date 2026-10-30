@@ -31,7 +31,8 @@ README 在此阶段只用于说明项目边界与文档索引，功能说明随 
 
 ```
 .
-├── data/              内容数据（JSON）与长文（Markdown）
+├── data/              内容数据（JSON）
+├── content/projects/  项目详情长文（Markdown）
 ├── src/
 │   ├── templates/     页面模板（返回 HTML 字符串的函数）
 │   ├── styles/        分层 CSS 源文件，构建时拼接为单文件
