@@ -1,0 +1,25 @@
+# 依赖
+node_modules/
+
+# 构建产物（由 Actions 生成，不入库）
+dist/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# 日志与临时文件
+*.log
+npm-debug.log*
+.cache/
+tmp/
+
+# 密钥：本地环境变量文件一律忽略
+.env
+.env.*
+# 例外：输入清单是公开内容，需要入库
+!docs/02-design/inputs.env

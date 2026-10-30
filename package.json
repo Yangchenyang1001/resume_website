@@ -1,0 +1,11 @@
+{
+  "name": "resume-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "杨晨阳 · Agent 工程 · 个人简历静态站",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {},
+  "dependencies": {}
+}
