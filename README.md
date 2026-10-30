@@ -66,7 +66,22 @@ README 在此阶段只用于说明项目边界与文档索引，功能说明随 
 
 ## 部署
 
-推送到 `main` 分支后，GitHub Actions 构建并把 `dist/` 发布到 GitHub Pages。
+三个长期分支，单向晋级：
+
+| 分支 | 用途 | Actions 行为 |
+|---|---|---|
+| `dev` | 开发分支，日常提交，允许半成品 | 构建校验，**不部署** |
+| `main` | 稳定分支，只接构建通过的版本，默认分支 | 构建校验，**不部署** |
+| `prod` | 发布分支 | 构建并部署到 GitHub Pages |
+
+```bash
+# 开发成功 → 稳定
+git checkout main && git merge --ff-only dev
+# 决定上线 → 发布
+git checkout prod && git merge --ff-only main && git push origin prod
+```
+
+只有 `prod` 会更新线上，`dev` 与 `main` 可以停留在未发布状态（见 `docs/02-design/architecture.md` ADR-B4）。
 
 首次部署前需要在仓库 `Settings → Pages → Build and deployment → Source` 选择 **GitHub Actions**，且**不要**在模板列表里点 `Configure`，否则会与本仓库自己的流水线冲突。
 
